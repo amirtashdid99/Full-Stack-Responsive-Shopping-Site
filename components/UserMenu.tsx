@@ -32,13 +32,13 @@ export default function UserMenu() {
       <div className="flex items-center gap-4">
         <Link
           href="/auth/login"
-          className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+          className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white whitespace-nowrap flex-shrink-0"
         >
           Sign in
         </Link>
         <Link
           href="/auth/register"
-          className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors"
+          className="bg-indigo-600 text-white px-3 sm:px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors whitespace-nowrap flex-shrink-0"
         >
           Sign up
         </Link>
